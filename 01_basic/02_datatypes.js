@@ -20,4 +20,7 @@ let state ;
 //symbol =>unique
 
 //object
-console.log ( typeof age);
+console.log ( typeof age); //18
+console.log ( typeof undefined);//undefined
+console.log ( typeof null);//object
+

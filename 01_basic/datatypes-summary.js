@@ -1,6 +1,6 @@
 //#Primitive
 
-const { useImperativeHandle } = require("react");
+const { useImperativeHandle, useInsertionEffect } = require("react");
 
 //7 types : String,Number,Boolean,null,undefined,Symbol,BigInt
 const score =100
@@ -34,3 +34,22 @@ console.log(typeof scoreValue);
 //Object(native or host and does implement[[call]])="function"
 //Object( host and does implement[[call]])=implement defined except may not be "undefined","boolean",
 //"number" or "string".
+//======================================================================
+//Stack (primitive),heap(Non-primitive)
+let myName="Sital Sabat"
+let anotherName=myName
+anothername="ruchi"
+console.log(myName)
+console.log(anothername)
+let user= {
+    email:"Sital@gmail.com",
+    upi:"user@ybl"
+}
+let userTwo = userOne
+userTwo.email = "Sital12@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+

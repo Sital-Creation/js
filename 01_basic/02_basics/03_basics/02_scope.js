@@ -22,7 +22,7 @@ if (true){
         console.log(username + website);
     }
 }
-//++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 console.log(addone(5))
 function addone(num){
     return  num +1
@@ -31,3 +31,5 @@ const addTwo =function(num){
     return num+2
 }
 addTwo(5)//this is not run bcz varible mai function  hold karke declaration kia gay hai 
+
+

@@ -14,6 +14,16 @@
 <body class="bg-black">
     <div >
         <h1  id="title" class="heading">DOM learning on Chai aur code <span style="display: none;">test text</span></h1>
+        <!--innerText → visible text (slow, respects CSS)-->
+        <!--textContent → all text (fast, ignores CSS).-->
+        <!--innerHTML → full HTML markup.-->
+        <!--Har element ke liye ek hi id allowed hota hai.-->
+        <!--Ek element → bohot saari class ho sakti hain.-->
+        <!--getElementById("id") → returns one element with that specific id.-->
+        <!--getElementsByClassName("class") → returns a live HTMLCollection (like an array, but auto-updates if DOM changes)-->
+        <!--getElementsByTagName("tag") → returns all elements of that tag (e.g., all <p>).-->
+        <!--document.querySelector("CSS selector") → returns the first matching element.-->
+        <!--document.querySelectorAll("CSS selector") → returns all matches as a static NodeList (doesn’t auto-update if DOM changes).-->
         <h2>Lorem ipsum dolor sit.</h2>
         <h2>Lorem ipsum dolor sit.</h2>
         <h2>Lorem ipsum dolor sit.</h2>
@@ -26,6 +36,7 @@
             <li class="list-item">three</li>
             <li class="list-item">four</li>
         </ul>
+        <!--html collection mai loop not working so convert in Array-->
     </div>
 </body>
 </html>
